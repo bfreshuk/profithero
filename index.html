@@ -16,17 +16,16 @@
             <input type="number" id="odds-b" class="odds-input" oninput="calculateStakes()">
         </div>
         <div class="input-row">
-            <label for="stake-a">Bet A Stake:</label>
+            <label for="stake-a">Bet A Stake ($):</label>
             <input type="number" id="stake-a" oninput="calculateStakes()">
-            <label for="stake-b">Bet B Stake:</label>
+            <label for="stake-b">Bet B Stake ($):</label>
             <input type="number" id="stake-b" readonly>
         </div>
         <div id="results">
-            <p>Total stake: £<span id="total-stake"></span></p>
-            <p>Profit/Loss: £<span id="profit-loss"></span></p>
+            <p>Total stake: $<span id="total-stake">0.00</span></p>
+            <p>Profit/Loss: $<span id="profit-loss">0.00</span></p>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
