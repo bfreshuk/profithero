@@ -10,19 +10,19 @@
     <div class="calculator">
         <h2>Dutching Calculator</h2>
         <div class="input-row">
-            <label for="odds-a">Bet A Odds:</label>
+            <label for="odds-a">Bet A Odds (US Format):</label>
             <input type="number" id="odds-a" class="odds-input" oninput="calculateStakes()">
-            <label for="odds-b">Bet B Odds:</label>
+            <label for="odds-b">Bet B Odds (US Format):</label>
             <input type="number" id="odds-b" class="odds-input" oninput="calculateStakes()">
         </div>
         <div class="input-row">
-            <label for="stake-a">Bet A Stake ($):</label>
+            <label for="stake-a">Bet A Stake:</label>
             <input type="number" id="stake-a" oninput="calculateStakes()">
-            <label for="stake-b">Bet B Stake ($):</label>
+            <label for="stake-b">Bet B Stake:</label>
             <input type="number" id="stake-b" readonly>
         </div>
         <div id="results">
-            <p>Total stake: $<span id="total-stake">0.00</span></p>
+            <p>Total Stake: $<span id="total-stake">0.00</span></p>
             <p>Profit/Loss: $<span id="profit-loss">0.00</span></p>
         </div>
     </div>
