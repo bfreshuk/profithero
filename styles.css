@@ -1,10 +1,14 @@
+body {
+    background-color: black;
+    color: #666666; /* Dark grey text color */
+}
+
 .calculator {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #666666;
     border-radius: 5px;
-    color: #333; /* Dark gray text color */
 }
 
 .input-row {
@@ -17,11 +21,11 @@
     margin-right: 10px;
 }
 
-.odds-input {
-    width: 80px;
+.odds-input, #stake-b {
+    width: calc(50% - 10px);
+    background-color: #f0f0f0; /* Grey background */
 }
 
 #stake-b {
-    background-color: #f0f0f0;
     cursor: not-allowed;
 }
